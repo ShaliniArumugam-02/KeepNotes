@@ -1,0 +1,21 @@
+{
+  "name": "keepnotes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix Server && npm install --prefix Client && npm run build --prefix Client",
+    "start":  "npm run start --prefix Server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaliniArumugam-02/KeepNotes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShaliniArumugam-02/KeepNotes/issues"
+  },
+  "homepage": "https://github.com/ShaliniArumugam-02/KeepNotes#readme",
+  "description": ""
+}
